@@ -1,0 +1,63 @@
+{
+    "object_kind": "push",
+    "event_name": "push",
+    "before": "141b2d5d3f793e20f94421c554d8d9c51143ce0d",
+    "after": "b68a6794cd5c3702a2144be60c41a9ca982c416b",
+    "ref": "refs/heads/master",
+    "ref_protected": true,
+    "checkout_sha": "b68a6794cd5c3702a2144be60c41a9ca982c416b",
+    "message": null,
+    "user_id": 761,
+    "user_name": "George Kiagiadakis",
+    "user_username": "gkiagia",
+    "user_email": "",
+    "user_avatar": "https://secure.gravatar.com/avatar/fef80de08e4b130d46f64ddfd085c154e4b8cd4c45f8ba9dc8f6dc3f3ce79986?s=80&d=identicon",
+    "project_id": 2941,
+    "project": {
+        "id": 2941,
+        "name": "wireplumber",
+        "description": "Session / policy manager implementation for PipeWire",
+        "web_url": "https://gitlab.freedesktop.org/pipewire/wireplumber",
+        "avatar_url": null,
+        "git_ssh_url": "git@gitlab.freedesktop.org:pipewire/wireplumber.git",
+        "git_http_url": "https://gitlab.freedesktop.org/pipewire/wireplumber.git",
+        "namespace": "PipeWire",
+        "visibility_level": 20,
+        "path_with_namespace": "pipewire/wireplumber",
+        "default_branch": "master",
+        "ci_config_path": null,
+        "homepage": "https://gitlab.freedesktop.org/pipewire/wireplumber",
+        "url": "git@gitlab.freedesktop.org:pipewire/wireplumber.git",
+        "ssh_url": "git@gitlab.freedesktop.org:pipewire/wireplumber.git",
+        "http_url": "https://gitlab.freedesktop.org/pipewire/wireplumber.git"
+      },
+    "commits": [
+        {
+              "id": "b68a6794cd5c3702a2144be60c41a9ca982c416b",
+              "message": "autoswitch-bluetooth-profile: switch only Bluetooth devices\n\nHandle only devices associated with Bluetooth loopback nodes.\n\nMake sure the node.link-group iteration cannot get stuck if there is a\nloop in the link graph.\n",
+              "title": "autoswitch-bluetooth-profile: switch only Bluetooth devices",
+              "timestamp": "2024-09-10T07:51:03+00:00",
+              "url": "https://gitlab.freedesktop.org/pipewire/wireplumber/-/commit/b68a6794cd5c3702a2144be60c41a9ca982c416b",
+              "author": {
+                      "name": "Pauli Virtanen",
+                      "email": "john@doe.ex"
+                    },
+              "added": [],
+              "modified": [
+                      "src/scripts/device/autoswitch-bluetooth-profile.lua"
+                    ],
+              "removed": []
+            }
+      ],
+    "total_commits_count": 1,
+    "push_options": {},
+    "repository": {
+        "name": "wireplumber",
+        "url": "git@gitlab.freedesktop.org:pipewire/wireplumber.git",
+        "description": "Session / policy manager implementation for PipeWire",
+        "homepage": "https://gitlab.freedesktop.org/pipewire/wireplumber",
+        "git_http_url": "https://gitlab.freedesktop.org/pipewire/wireplumber.git",
+        "git_ssh_url": "git@gitlab.freedesktop.org:pipewire/wireplumber.git",
+        "visibility_level": 20
+      }
+  }
